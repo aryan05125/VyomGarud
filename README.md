@@ -42,20 +42,33 @@ https://vyomgarud-lovat.vercel.app/
 
 ## 📁 Folder Structure
 
-/app
-├── page.tsx
-├── globals.css
-/components
-├── Header.tsx
-├── Hero.tsx
-├── About.tsx
-├── Solutions.tsx
-├── Excellence.tsx
-├── Contact.tsx
-├── Footer.tsx
-/public
-├── hero.jpg
-├── grid.svg
+VyomGarud/
+│
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Solutions.tsx
+│   ├── Excellence.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+│
+├── public/
+│   ├── hero.jpg
+│   ├── grid.svg
+│   └── favicon.ico
+│
+├── .gitignore
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 
 yaml
 Copy code
